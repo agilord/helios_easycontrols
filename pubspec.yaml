@@ -1,0 +1,14 @@
+name: helios_easycontrols
+description: Read status and set levels on Helios KWL devices that run easycontrols 3.0 (HTTP interface).
+version: 0.2.0
+homepage: https://github.com/agilord/helios_easycontrols
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  puppeteer: ^2.13.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
